@@ -1,0 +1,11 @@
+@import './reset';
+@import './settings';
+@import './base';
+
+
+@import '../components/header.component/header.component';
+@import '../components/Hole.component/Hole.component';
+@import '../components/Board.component/Board.component';
+@import '../components/Disk.component/Disk.component.scss'
+
+

@@ -1,0 +1,33 @@
+.header {
+  background-color: $dark-blue;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  background-color: white;
+  padding: 2rem 10px 0.5rem 10px;
+}
+
+.header .logo {
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px;
+  margin-bottom: 1px;
+}
+h1 span{
+  color: red;
+}
+
+h1 {
+  margin: 0;
+  font-size: 54px;
+  font-family: cursive;
+  @media (min-width: $desktop-breakpoint) {
+    font-size: 54px;
+    text-align: center;
+    font-weight: bold;
+
+  
+  }
+
+}

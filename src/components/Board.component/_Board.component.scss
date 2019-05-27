@@ -1,0 +1,221 @@
+.row {
+  margin-right: initial;
+  margin-left: initial;
+}
+.board {
+  border: 12px solid #243282;
+  width: fit-content;
+  min-width: fit-content;
+  position: relative;
+  top: 5vh;
+  // overflow: hidden;
+  border-top: none;
+  background-color: transparent;
+}
+.wrap-up {
+  position: absolute;
+  background-color: #ffffff;
+  min-width: fit-content;
+  
+  height: 75px;
+  top: -5vh;
+  top: -7vh;
+  z-index: 2500;
+  margin-bottom: -46px;
+  padding: 10px;
+  width: 360px;
+  margin-left: -26px;
+  #hol0 {
+    margin-right: 60px;
+  }
+  #hol1 {
+    margin-right: 14px;
+  }
+  #hol2 {
+    margin-right: 12px;
+  }
+  #hol3 {
+    margin-right: 15px;
+  }
+  #hol4 {
+    margin-right: 12px;
+  }
+  #hol5 {
+    margin-right: 12px;
+  }
+  #hol6 {
+    margin-right: 17px;
+  }
+  #hol7 {
+    margin-right: 17px;
+  }
+  @media (min-width: $desktop-breakpoint) {
+    width: 639px;
+    height: 85px;
+    top: -1vh;
+    #hol1 {
+      margin-right: 18px;
+    }
+    #hol2 {
+      margin-right: 13px;
+    }
+    #hol3 {
+      margin-right: 13px;
+    }
+    #hol4 {
+      margin-right: 16px;
+    }
+    #hol5 {
+      margin-right: 12px;
+    }
+    #hol6 {
+      margin-right: 21px;
+    }
+    #hol7 {
+      margin-right: 5px;
+    }
+  }
+}
+
+.board-wrap .container {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.list-item:hover button {
+  display: initial;
+}
+
+.held {
+  border: solid 10px black;
+  background-color: black;
+}
+
+.holder {
+  width: 30px;
+  display: inline-block;
+  @media (min-width: $desktop-breakpoint) {
+    width: 70px;
+  }
+}
+
+.hovered {
+  border: dotted 5px black;
+}
+
+.invisible {
+  display: none;
+}
+
+#container {
+  margin: auto;
+  top: 100px;
+  width: 400px;
+  position: relative;
+}
+
+.panel {
+  text-align: center;
+}
+.board-wrap {
+  position: relative;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 0 12px 0;
+  font-weight: bold;
+}
+.diskwrap {
+  right: -990px;
+  position: relative;
+  top: -600px;
+  margin: 0px;
+  color: red;
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+}
+
+button {
+  width: 114%;
+  height: 150px;
+  margin-top: -71px;
+  background-color: transparent;
+  margin-left: -16px;
+  border: none;
+  @media (min-width: $desktop-breakpoint) {
+    display: flex;
+    justify-content: center;
+  }
+}
+.ReactModalPortal > div {
+  opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  transition: opacity 200ms ease-in-out;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+  opacity: 1;
+  z-index: 5000 !important;
+  position: absolute !important;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.75) !important;
+  z-index: 5000 !important;
+}
+
+.ReactModal__Overlay ReactModal__Overlay--after-open {
+  z-index: 5000 !important;
+}
+.ReactModal__Content--after-open {
+  display: block;
+}
+
+.modal {
+  background: white;
+  color: black;
+  width: 250px;
+  outline: none;
+  padding: 20px;
+  text-align: center;
+  margin: 10px auto;
+  border: 1px solid black;
+  position: relative;
+  @media (min-width: $desktop-breakpoint) {
+    padding: 50px;
+    width: 550px;
+  }
+}
+
+.modal__title {
+  margin: 0 0 20px 0;
+  font-size: 26px;
+}
+
+.modal__body {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0 0 20px 0;
+  word-break: break-all;
+}
+.button {
+  width: 60%;
+
+  background-color: #001692;
+  height: 50px;
+  margin-top: 1px;
+  border: none;
+  margin: 9px auto 0 auto;
+  font-size: 20px;
+  color: #ffffff;
+  border-radius: 5px;
+}

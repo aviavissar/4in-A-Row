@@ -1,0 +1,128 @@
+
+body {
+  font-family: Arial;
+  direction: ltr;
+  font-size: 18px;
+  text-align: left;
+  color: #8a8c8e;
+  line-height: 18px;
+}
+.row {
+  width: 105%;
+  padding-top: 15px;
+}
+.list-item {
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+  border: 2px solid #bdb6b6;
+  border-radius: 7px;
+  
+  color: #333333;
+  padding: 0px;
+  text-decoration: none;
+  max-width: 368px;
+  transition: background 0.3s ease;
+  margin: 7px;
+  margin-left: 9px;
+  padding-left: 14px;
+  &:hover {
+    background: #aed6b9;
+  }
+  @media (min-width: $desktop-breakpoint) {
+    border-left: 12px solid #10802e;
+    text-align: right;
+    font-weight: bold;
+    padding: 20px;
+   
+  }
+}
+
+
+.descriptin {
+  height: 70px;
+  padding-left: 20px;
+}
+
+h5 {
+  font-size: 16px;
+    margin-left: 21px;
+    margin-bottom: 6px;
+    color: #777777;
+    margin-top: -8px;
+    @media (min-width: $desktop-breakpoint) {
+      margin-bottom: 1px;
+     
+    }
+}
+
+.col-md-3 h5 {
+  margin-left: 44px;
+}
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: inherit;
+  color: black;
+  border-radius: 6px;
+  padding: 5px;
+  
+}
+label,button{
+  font-size:14px;
+  @media (min-width: $desktop-breakpoint) {
+    font-size: 18px;
+    text-align: right;
+  
+  }
+}
+
+.container {
+  width: 100%;
+  width: 100%;
+    padding-right: 15px;
+    padding-left: 14px;
+    margin-right: auto;
+    margin-left: 4px;
+    @media (min-width: $desktop-breakpoint) {
+      padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    
+    }
+
+}
+
+.col-md-3 {
+  width: 25%;
+}
+button {
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+#page-content {
+  line-height: 150%;
+  padding: 50px 100px;
+  background-color: #ffffff;
+  text-align: right;
+  min-height: 700px;
+}
+
+.panel-default {
+  padding: 20px 0px 20px 30px;
+  border: 1px solid transparent;
+}
+.checkbox{
+  width: 20px;
+  height: 20px;
+  margin:5px;
+  @media (min-width: $desktop-breakpoint) {
+    width: 20px;
+    height: 20px;
+    margin: 0px 10px;
+  }
+}

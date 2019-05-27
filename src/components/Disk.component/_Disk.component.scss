@@ -1,0 +1,32 @@
+.disk{
+    height: 5vh;
+    width: 8vw;
+    border:1px solid black;
+    border-radius:50%;
+    
+    z-index: 1000;
+    @media (min-width: $desktop-breakpoint) {
+        height: 70px;
+        width: 70px;
+        top: 80px;
+      
+        
+      }
+}
+.inerhole{
+    background-color: white;
+}
+.diskwrap{
+
+    right: 110px;
+    position: absolute;
+    top: 380px;
+    margin: 0;
+    display: flex;
+    width: initial;
+    @media (min-width: $desktop-breakpoint) {
+        display: initial;
+    position: absolute;
+    top: 77px;
+    margin: 0px;}
+}
